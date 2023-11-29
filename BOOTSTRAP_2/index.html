@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary px-4 position-sticky top-0 z-1">
+      <div class="container-fluid">
+        <img
+          src="https://www.bus.evelinr.com/wp-content/uploads/2021/01/logo-evelin-r.png"
+          style="width: 70px"
+          alt=""
+        />
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse mx-2" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active text-secondary" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-secondary" href="#">Saldi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-secondary" href="#">Dropdown</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-secondary" href="#">Last Minute</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btn btn-outline-danger" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="container bg-body-secondary px-5 py-3 my-5">
+      <div class="col border-2 border-bottom border-dark-subtle d-flex align-items-center">
+        <h1 class="display-1 text-secondary">Eveline-R</h1>
+        <p class="lead my-auto text-secondary">-Feel the Freedom</p>
+      </div>
+      <div class="col my-2">
+        <h3 class="fs-3 fst-italic fw-light text-secondary">Scopri le destinazioni più calde del momento</h3>
+      </div>
+      <button class="btn btn-info my-4 text-light px-5">Prenota ora</button>
+    </div>
+    <div class="container w-100 d-flex justify-content-between">
+      <h4>Saldi</h4>
+      <p class="fs-6 text-info">Nascondi sezione</p>
+    </div>
+    <div class="container">
+      <div class="row row-cols-4">
+        <div class="col">
+          <div class="card border-2 border-info">
+            <img
+              src="https://plus.unsplash.com/premium_photo-1700319259405-f080192b3e73?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              class="card-img-top object-fit-cover"
+              alt="..."
+              style="height: 200px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary text-dark bg-info border-0">Prenota</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-2 border-info">
+            <img
+              src="https://images.unsplash.com/photo-1682686581551-867e0b208bd1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              class="card-img-top object-fit-cover"
+              alt="..."
+              style="height: 200px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary text-dark bg-info border-0">Prenota</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-2 border-info">
+            <img
+              src="https://images.unsplash.com/photo-1701086292958-f753f3bb5d27?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              class="card-img-top object-fit-cover"
+              alt="..."
+              style="height: 200px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary text-dark bg-info border-0">Prenota</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-2 border-info">
+            <img
+              src="https://images.unsplash.com/photo-1682687220777-2c60708d6889?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              class="card-img-top object-fit-cover"
+              alt="..."
+              style="height: 200px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary text-dark bg-info border-0">Prenota</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container w-100 d-flex justify-content-between mt-5">
+      <h4>Welcome Summer</h4>
+      <p class="fs-6 text-info">Nascondi sezione</p>
+    </div>
+    <div class="container">
+      <div class="row row-cols-3 g-4">
+        <div class="col">
+          <div class="card shadow">
+            <img
+              src="https://images.unsplash.com/photo-1700681788294-98577906171d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              style="height: 200px"
+              class="card-img-top object-fit-cover"
+              alt="..."
+            />
+            <button
+              class="btn bg-danger text-light w-2515 p-0 position-absolute end-0 p-1 mx-3 my-2 fw-bold"
+              type="submit"
+              style="font-size: 10px"
+            >
+              HOT
+            </button>
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary text-dark bg-info border-0">Prenota</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow">
+            <img
+              src="https://images.unsplash.com/photo-1700677866588-95226be09b39?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              style="height: 200px"
+              class="card-img-top object-fit-cover"
+              alt="..."
+            />
+            <button
+              class="btn bg-danger text-light w-2515 p-0 position-absolute end-0 p-1 mx-3 my-2 fw-bold"
+              type="submit"
+              style="font-size: 10px"
+            >
+              HOT
+            </button>
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary text-dark bg-info border-0">Prenota</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow">
+            <img
+              src="https://images.unsplash.com/photo-1700675654200-77cf70154e1c?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              style="height: 200px"
+              class="card-img-top object-fit-cover"
+              alt="..."
+            />
+            <button
+              class="btn bg-danger text-light w-2515 p-0 position-absolute end-0 p-1 mx-3 my-2 fw-bold"
+              type="submit"
+              style="font-size: 10px"
+            >
+              HOT
+            </button>
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary text-dark bg-info border-0">Prenota</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow">
+            <img
+              src="https://images.unsplash.com/photo-1700669956526-58b8e4d78eb5?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              style="height: 200px"
+              class="card-img-top object-fit-cover"
+              alt="..."
+            />
+            <button
+              class="btn bg-danger text-light w-2515 p-0 position-absolute end-0 p-1 mx-3 my-2 fw-bold"
+              type="submit"
+              style="font-size: 10px"
+            >
+              HOT
+            </button>
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary text-dark bg-info border-0">Prenota</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow">
+            <img
+              src="https://images.unsplash.com/photo-1700525058757-a8a279539b2d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              style="height: 200px"
+              class="card-img-top object-fit-cover"
+              alt="..."
+            />
+            <button
+              class="btn bg-danger text-light w-2515 p-0 position-absolute end-0 p-1 mx-3 my-2 fw-bold"
+              type="submit"
+              style="font-size: 10px"
+            >
+              HOT
+            </button>
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary text-dark bg-info border-0">Prenota</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow">
+            <img
+              src="https://images.unsplash.com/photo-1700587511618-d66c60590e9c?q=80&w=1937&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              style="height: 200px"
+              class="card-img-top object-fit-cover"
+              alt="..."
+            />
+            <button
+              class="btn bg-danger text-light w-2515 p-0 position-absolute end-0 p-1 mx-3 my-2 fw-bold"
+              type="submit"
+              style="font-size: 10px"
+            >
+              HOT
+            </button>
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary text-dark bg-info border-0">Prenota</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container mt-5">
+      <h2>Offerta del giorno</h2>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
